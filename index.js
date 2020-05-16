@@ -33,10 +33,10 @@ const birthYear = 2020;
 
 /* talk about scoping here */
 
-const list = [1, 3, 4, 5, 6];
-for (var i = 0; i < list.length; i++) {
-  // console.log(i);
-}
+// const list = [1, 3, 4, 5, 6];
+// for (var i = 0; i < list.length; i++) {
+//   // console.log(i);
+// }
 
 // console.log(i);
 
@@ -109,3 +109,23 @@ const list = {
 const { names, todos } = list;
 
 console.log(names, todos);
+
+/* 5. arrow function */
+/* old Js */
+
+function sayName() {
+  console.log("Hello I am Fitsum");
+}
+
+var sayAge = function () {
+  console.log("my age is ......");
+};
+
+sayName();
+sayAge();
+
+/* ES6 */
+
+const sayLocation = (location) => console.log(`my location is ${location}`);
+
+sayLocation("silver spring");
