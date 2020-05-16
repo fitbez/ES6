@@ -2,11 +2,11 @@
 
 /* Old Version of JavaScript*/
 
-var name = "fitsum";
+// var name = "fitsum";
 
-var name = "helen";
+// var name = "helen";
 
-name = "adil";
+// name = "adil";
 
 // console.log(name);
 
@@ -40,4 +40,21 @@ for (var i = 0; i < list.length; i++) {
 
 console.log(i);
 
-2; /* template literal */
+/*2. template literal */
+
+/* Old Version of JS */
+
+let name = "Bezawit";
+
+// console.log("hello my name is " + name);
+/* ES6 */
+
+let firstName = "fitsum";
+
+let lastName = "belayneh";
+
+let age = 15;
+
+console.log(
+  `Hello my full name is ${firstName} ${lastName} and I am ${age} years old`
+);
