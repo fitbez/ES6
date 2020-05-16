@@ -38,7 +38,7 @@ for (var i = 0; i < list.length; i++) {
   // console.log(i);
 }
 
-console.log(i);
+// console.log(i);
 
 /*2. template literal */
 
@@ -47,6 +47,7 @@ console.log(i);
 let name = "Bezawit";
 
 // console.log("hello my name is " + name);
+
 /* ES6 */
 
 let firstName = "fitsum";
@@ -55,6 +56,32 @@ let lastName = "belayneh";
 
 let age = 15;
 
-console.log(
-  `Hello my full name is ${firstName} ${lastName} and I am ${age} years old`
-);
+// console.log(
+//   `Hello my full name is ${firstName} ${lastName} and I am ${age} years old`
+// );
+
+/* 3. Object literal */
+
+/* Old JS */
+function getCar(make, model) {
+  return {
+    make: make,
+    model: model,
+  };
+}
+
+var car = getCar("Honda", "Civic");
+
+console.log(car);
+
+/* ES6 */
+function getCar(make, model) {
+  return {
+    make,
+    model,
+  };
+}
+
+var car = getCar("Honda", "Civic");
+
+console.log(car);
