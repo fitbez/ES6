@@ -72,7 +72,7 @@ function getCar(make, model) {
 
 var car = getCar("Honda", "Civic");
 
-console.log(car);
+// console.log(car);
 
 /* ES6 */
 function getCar(make, model) {
@@ -84,4 +84,28 @@ function getCar(make, model) {
 
 var car = getCar("Honda", "Civic");
 
-console.log(car);
+// console.log(car);
+
+/* 4. Object destructuring */
+
+/* Old Js */
+
+var user = {
+  name: "fitusm",
+  age: 15,
+};
+
+var myName = user.name;
+
+console.log(myName);
+
+/* ES6 */
+
+const list = {
+  names: "todo list",
+  todos: ["shoping", "gym", "study"],
+};
+
+const { names, todos } = list;
+
+console.log(names, todos);
